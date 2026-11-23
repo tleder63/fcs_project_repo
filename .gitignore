@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+venv/
+
+# Secrets – NEVER commit API keys
+.streamlit/secrets.toml
+.env
+
+# Local database (each laptop creates its own on first run)
+data/*.db
+
+# Editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
